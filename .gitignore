@@ -8,3 +8,6 @@ __pycache__/
 *.log
 *.tmp
 .DS_Store
+sif_monthly_data/
+SIF_DATA_TROPOMI
+.venv/
