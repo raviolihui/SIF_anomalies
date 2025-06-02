@@ -11,3 +11,4 @@ __pycache__/
 sif_monthly_data/
 SIF_DATA_TROPOMI
 .venv/
+*.nc
