@@ -18,6 +18,14 @@
 - **Modular and Extensible:**  
   Designed for easy adaptation to other areas of the world with the potential of comparing SIF anomalies with other extreme weather events. 
 
+#### Data
+
+- **Input:**  
+  Retrieved SIF from TROPOMI sensor dataset called TROPOSIF dataset in NetCDF format. To obtain this files go to "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/" or contact the owner of this repository. 
+  
+- **Output:**  
+  Anomaly maps highlighting regions and periods of significant SIF deviations.
+
 #### Installation
 
 1. **Clone the repository:**
@@ -34,20 +42,15 @@
 
 #### Usage
 
+- Make sure to have relevant data in your computer and modify the "paths" when necessary
+
 - The main file TROPOMI_AE shows the main steps taken for the detection of anomalies both with CAE and z-score method using the dataset TROPOSIF provided by ESSD Copernicus
 
 - TROPOMI_AE is a Jupyter Notebook in ypinb format, each cell is a step by step guide on how to obtain the results outlined by the master thesis
 
 - For a faster use, make sure to skip the cells that define the CAE and trains it as one can use the already trained model. Cells after these explicitly use the model saved as "autoencoder_sif_model", therefore there is no need to write any extra code. 
 
-#### Data
-
-- **Input:**  
-  Satellite SIF dataset TROPOSIF in NetCDF format. To obtain this files go to "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/" or contact the owner of this repository. 
-  
-- **Output:**  
-  Anomaly maps highlighting regions and periods of significant SIF deviations.
 
 #### Acknowledgements
 
-This repository was developed as part of a research project on remote sensing-based vegetation monitoring in the Amazon. For questions, contact the repository maintainer via GitHub Issues[1].
+This repository was developed as part of a research project on remote sensing-based vegetation monitoring in the Amazon. For questions, contact the repository maintainer via GitHub Issues.
