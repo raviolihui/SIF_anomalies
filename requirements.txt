@@ -1,6 +1,9 @@
 xarray
-netCDF4
 numpy
+cartopy
 matplotlib
-tensorflow
+pandas
 scikit-image
+keras
+opencv-python
+glob2
