@@ -1,0 +1,15 @@
+xarray
+numpy
+cartopy
+matplotlib
+pandas
+scikit-image
+keras
+opencv-python
+glob2
+tensorflow
+codecarbon
+netCDF4
+h5netcdf
+ipython 
+jupyter
