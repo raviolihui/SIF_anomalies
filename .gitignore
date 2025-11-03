@@ -13,3 +13,4 @@ sif_monthly_data/
 *.nc
 SIF_TROPOMI_DATA/
 venv/venv/
+venv/
